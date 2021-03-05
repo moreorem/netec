@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "nodejs express tailwind ejs couchdb template",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "test",
@@ -30,6 +30,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "jquery": "^3.6.0",
+    "morgan": "^1.10.0",
     "nano": "^9.0.3",
     "tailwindcss": "^2.0.3"
   },
