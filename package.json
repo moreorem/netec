@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "test",
-    "tail": "npx tailwindcss build src/main.css -o public/css/tailwind.css -c tailwind.config.cjs && npx cleancss public/css/tailwind.css -o output.min.css"
+    "tail": "npx tailwindcss build src/main.css -o public/css/tailwind.css -c tailwind.config.cjs && npx cleancss public/css/tailwind.css -o public/css/tailwind.min.css"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "tailwindcss",
     "couchdb"
   ],
-  "author": "moreorem",
+  "author": "moreorem", 
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/moreorem/netec/issues"
