@@ -1,0 +1,40 @@
+{
+  "name": "netec-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "nodejs express tailwind ejs couchdb template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test",
+    "tail": "npx tailwindcss build src/main.css -o public/css/tailwind.css -c tailwind.config.cjs && npx cleancss public/css/tailwind.css -o output.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreorem/netec.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "tailwindcss",
+    "couchdb"
+  ],
+  "author": "moreorem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moreorem/netec/issues"
+  },
+  "homepage": "https://github.com/moreorem/netec#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "nano": "^9.0.3",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.2.1",
+    "nodemon": "^2.0.7"
+  }
+}
